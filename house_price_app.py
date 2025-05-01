@@ -111,7 +111,8 @@ input_data = pd.DataFrame([{
     'State/Region': state,
     'City': city,
     'Bedrooms': bedrooms,
-    'Square Meter': squaremeter
+    'Square Meter (Sqm)': squaremeter,
+    'Population Density (people per sq km)': 10000
 }])
 
 # Predict button
