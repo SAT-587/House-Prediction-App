@@ -111,7 +111,7 @@ input_data = pd.DataFrame([{
     'State/Region': State/Region,
     'City': City,
     'Bedrooms': bedrooms,
-    'Square Meter': Square Meter
+    'Square Meter': squaremeter
 }])
 
 # Predict button
