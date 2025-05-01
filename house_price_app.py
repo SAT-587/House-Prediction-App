@@ -118,4 +118,5 @@ input_data = pd.DataFrame([{
 # Predict button
 if st.button("Predict"):
     prediction = model.predict(input_data)
-    st.write(f"The predicted price of the house is ${(prediction)[0]:.2f}.")
+    formatted_price = f"${prediction[0]:,.2f}"
+    st.write(f"The predicted price of the house is {formatted_price}.")
