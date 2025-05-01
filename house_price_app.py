@@ -103,7 +103,7 @@ country = st.selectbox("Select Country", list(location_data.keys()))
 state = st.selectbox("Select State", list(location_data[country].keys()))
 city = st.selectbox("Select City", location_data[country][state])
 bedrooms = st.number_input("Bedrooms", min_value=1.0, max_value=10, step=1.0, value=1)
-Square Meter = st.number_input("Square Meter (Sqm)", min_value=0, max_value=500, step=10, value=1)
+squaremeter = st.number_input("Square Meter (Sqm)", min_value=0, max_value=500, step=10, value=1)
 
 # Convert user input into a DataFrame
 input_data = pd.DataFrame([{
