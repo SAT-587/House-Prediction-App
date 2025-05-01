@@ -108,8 +108,8 @@ squaremeter = st.number_input("Square Meter (Sqm)", min_value=0, max_value=500, 
 # Convert user input into a DataFrame
 input_data = pd.DataFrame([{
     'Country': country,
-    'State/Region': State/Region,
-    'City': City,
+    'State/Region': state,
+    'City': city,
     'Bedrooms': bedrooms,
     'Square Meter': squaremeter
 }])
